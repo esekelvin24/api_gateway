@@ -23,10 +23,21 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Deploy application
 
+Kindly not that I deployed my applications using docker container. the docker-compose, Dockerfile are on the root directory of this projects
+
+You can the database hostname to localhost in your .env file if you are not using docker
+
 •	git clone ...
 •	php artisan migrate
 •	php artisan db:seed
 •	php artisan serve
+
+
+
+•	to get access token by default use
+    - email: esekelvin24@gmail.com
+    - password: password
+
 
 
 ## Learning Laravel
